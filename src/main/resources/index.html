@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Locadora de Filmes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f8f8f8;
+    }
+    .navbar {
+      background-color: #222;
+      border-radius: 0;
+    }
+    .navbar-brand {
+      font-size: 24px;
+      color: #fff;
+    }
+    .navbar-nav > li > a {
+      font-size: 18px;
+      color: #fff;
+    }
+    .container {
+      margin-top: 20px;
+    }
+    h3 {
+      font-size: 36px;
+      color: #333;
+    }
+    p {
+      font-size: 18px;
+      color: #555;
+    }
+    .footer {
+      background-color: #222; /* Alterando a cor de fundo do footer */
+      padding: 20px;
+      text-align: left;
+      color: #fff; /* Alterando a cor do texto do footer */
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><i class="fas fa-film"></i> Locadora de Filmes</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#"><i class="fas fa-home"></i> Home</a></li>
+      <!-- Adicionando links para as rotas -->
+      <li><a href="/usuarios"><i class="fas fa-users"></i> Usuários</a></li>
+      <li><a href="/funcionarios"><i class="fas fa-user-tie"></i> Funcionários</a></li>
+      <li><a href="/filmes/aventura"><i class="fas fa-film"></i> Filmes de Aventura</a></li>
+      <li><a href="/filmes/romance"><i class="fas fa-film"></i> Filmes de Romance</a></li>
+      <li><a href="/filmes"><i class="fas fa-film"></i> Todos os Filmes</a></li>
+      <li><a href="/locadoras"><i class="fas fa-video"></i> Locadoras</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3>Bem-vindo à Locadora de Filmes</h3>
+  <p>Explore nossa vasta coleção de filmes e encontre o que você procura!</p>
+</div>
+
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Sobre o Projeto</h2>
+        <p>A Locadora de Filmes é um sistema desenvolvido para facilitar a administração de um catálogo de filmes, funcionários e usuários de uma locadora de filmes. Seu principal objetivo é oferecer uma plataforma intuitiva e eficiente para a gestão de todas as operações relacionadas à locação e devolução de filmes.<br></p>
+        <p>Temos como objetivo fornecer uma interface amigável para os usuários realizarem suas locações e consultarem informações sobre os filmes disponíveis.<br>
+        As funcionalidades principais incluem cadastro de filmes, cadastro de funcionários e usuário e locação e devolução de filmes.</p><br><br><br>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Informações sobre o Aluno:</h4>
+        <p>Nome do Aluno: Larissa de Moraes Costa</p>
+        <p>Curso: Engenharia de Software</p>
+        <p>Instituição: Instituto Infnet</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Professor Responsável:</h4>
+        <p>Nome do Professor: Elberth Moraes</p>
+        <p>Disciplina: Desenvolvimento de Serviços Web e Testes com Java</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Repositório do Projeto:</h4>
+        <p><a href="https://github.com/larissamoraes915?tab=repositories" target="_blank">Código Fonte no GitHub</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>
